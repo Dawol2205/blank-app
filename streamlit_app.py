@@ -7,14 +7,14 @@ st.write(
 )
 
 mbti = st.selectbox(
-    '어떤 종류의 요리를 좋아하시나요?',
-    ('한식', '중식', '양식', '잡식')
+    "어떤 종류의 요리를 좋아하시나요?",
+    ("한식", "중식", "양식", "잡식")
 
-if mbti == '한식':
-    st.write('한식데이터')
-elif mbti == '중식': 
-    st.write('중식데이터')
-elif mbti == '양식': 
-    st.write('양식데이터')
-elif mbti == '잡식': 
-    st.write('돼지새끼')
+if mbti == "한식":
+    st.write("한식데이터")
+elif mbti == "중식": 
+    st.write("중식데이터")
+elif mbti == "양식": 
+    st.write("양식데이터")
+elif mbti == "잡식": 
+    st.write("돼지새끼")
